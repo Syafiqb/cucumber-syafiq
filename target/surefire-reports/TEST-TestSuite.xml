@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="13.518" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/test-classes:/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/classes:/Users/syafiqbasmallah/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/syafiqbasmallah/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/syafiqbasmallah/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-java/4.41.0/selenium-java-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-api/4.41.0/selenium-api-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.41.0/selenium-chrome-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.41.0/selenium-chromium-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-json/4.41.0/selenium-json-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.41.0/selenium-manager-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.41.0/selenium-devtools-v143-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.41.0/selenium-devtools-v144-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v145/4.41.0/selenium-devtools-v145-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.41.0/selenium-edge-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.41.0/selenium-firefox-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-http/4.41.0/selenium-http-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.41.0/selenium-ie-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.41.0/selenium-remote-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/syafiqbasmallah/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-api/1.59.0/opentelemetry-api-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-context/1.59.0/opentelemetry-context-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-common/1.59.0/opentelemetry-common-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.59.0/opentelemetry-exporter-logging-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.59.0/opentelemetry-sdk-common-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.59.0/opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.59.0/opentelemetry-sdk-extension-autoconfigure-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.59.0/opentelemetry-sdk-trace-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.59.0/opentelemetry-sdk-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.59.0/opentelemetry-sdk-metrics-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.59.0/opentelemetry-sdk-logs-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/net/bytebuddy/byte-buddy/1.18.5/byte-buddy-1.18.5.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-os/4.41.0/selenium-os-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.41.0/selenium-safari-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-support/4.41.0/selenium-support-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/syafiqbasmallah/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-testng/7.34.3/cucumber-testng-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/syafiqbasmallah/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/syafiqbasmallah/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/syafiqbasmallah/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/syafiqbasmallah/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/syafiqbasmallah/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/syafiqbasmallah/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/syafiqbasmallah/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/syafiqbasmallah/.m2/repository/ch/qos/logback/logback-classic/1.5.32/logback-classic-1.5.32.jar:/Users/syafiqbasmallah/.m2/repository/ch/qos/logback/logback-core/1.5.32/logback-core-1.5.32.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/surefire/surefirebooter-20260417062020858_3.jar /Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/surefire 2026-04-17T06-20-20_818-jvmRun1 surefire-20260417062020858_1tmp surefire_0-20260417062020858_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/test-classes:/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/classes:/Users/syafiqbasmallah/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/syafiqbasmallah/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/syafiqbasmallah/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-java/4.41.0/selenium-java-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-api/4.41.0/selenium-api-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.41.0/selenium-chrome-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.41.0/selenium-chromium-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-json/4.41.0/selenium-json-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.41.0/selenium-manager-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.41.0/selenium-devtools-v143-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.41.0/selenium-devtools-v144-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v145/4.41.0/selenium-devtools-v145-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.41.0/selenium-edge-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.41.0/selenium-firefox-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-http/4.41.0/selenium-http-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.41.0/selenium-ie-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.41.0/selenium-remote-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/syafiqbasmallah/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/syafiqbasmallah/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/syafiqbasmallah/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-api/1.59.0/opentelemetry-api-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-context/1.59.0/opentelemetry-context-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-common/1.59.0/opentelemetry-common-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.59.0/opentelemetry-exporter-logging-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.59.0/opentelemetry-sdk-common-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.59.0/opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.59.0/opentelemetry-sdk-extension-autoconfigure-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.59.0/opentelemetry-sdk-trace-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.59.0/opentelemetry-sdk-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.59.0/opentelemetry-sdk-metrics-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.59.0/opentelemetry-sdk-logs-1.59.0.jar:/Users/syafiqbasmallah/.m2/repository/net/bytebuddy/byte-buddy/1.18.5/byte-buddy-1.18.5.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-os/4.41.0/selenium-os-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.41.0/selenium-safari-driver-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/org/seleniumhq/selenium/selenium-support/4.41.0/selenium-support-4.41.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/syafiqbasmallah/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/syafiqbasmallah/.m2/repository/io/cucumber/cucumber-testng/7.34.3/cucumber-testng-7.34.3.jar:/Users/syafiqbasmallah/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/syafiqbasmallah/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/syafiqbasmallah/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/syafiqbasmallah/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/syafiqbasmallah/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/syafiqbasmallah/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/syafiqbasmallah/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/syafiqbasmallah/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/syafiqbasmallah/.m2/repository/ch/qos/logback/logback-classic/1.5.32/logback-classic-1.5.32.jar:/Users/syafiqbasmallah/.m2/repository/ch/qos/logback/logback-core/1.5.32/logback-core-1.5.32.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/syafiqbasmallah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/target/surefire/surefirebooter-20260417062020858_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="syafiqbasmallah"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/syafiqbasmallah/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5x/lr8ch4vj16j2r90wc7vjlbmw0000gn/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/syafiqbasmallah/Documents/java/cucumber-syafiq"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/syafiqbasmallah/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;SauceDemo Login Functionality&quot;](1)" classname="com.syafiq.cucumber.TestRunner" time="1.771">
+    <system-out><![CDATA[06:20:21.141 [main] INFO com.syafiq.cucumber.TestRunner -- Suite setup: initializing WebDriver (chrome)
+06:20:23.043 [main] INFO com.syafiq.cucumber.TestRunner -- WebDriver initialized
+
+&amp#27;[1mScenario:&amp#27;[22m Successful login with valid credentials            &amp#27;[90m# src/main/resources/features/Login.feature:2&amp#27;[39m
+06:20:23.313 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:23.313 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:24.782 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                      &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:24.788 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m         &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:24.934 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                              &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:25.000 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:25.018 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:25.019 [main] INFO com.syafiq.cucumber.LoginTest -- Page header displays Products
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe page header should display Products&amp#27;[39m              &amp#27;[90m# com.syafiq.cucumber.LoginTest.page_header_should_display_products()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Apr 17, 2026 6:20:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login failure with incorrect credentials&quot;, &quot;SauceDemo Login Functionality&quot;](2)" classname="com.syafiq.cucumber.TestRunner" time="1.101">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Login failure with incorrect credentials     &amp#27;[90m# src/main/resources/features/Login.feature:9&amp#27;[39m
+06:20:25.044 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:25.045 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:26.111 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:26.112 [main] INFO com.syafiq.cucumber.LoginTest -- User enters invalid username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters invalid username and password&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_invalid_username_and_password()&amp#27;[39m
+06:20:26.112 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                        &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:26.146 [main] INFO com.syafiq.cucumber.LoginTest -- User sees error message
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should see an error message&amp#27;[39m          &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_see_error_message()&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Sort Products by Price and Checkout&quot;](3)" classname="com.syafiq.cucumber.TestRunner" time="1.487">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Sort products by price low to high                           &amp#27;[90m# src/main/resources/features/SortAndCheckout.feature:12&amp#27;[39m
+06:20:26.148 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:26.148 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:27.219 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                                &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:27.221 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m                   &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:27.307 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                                        &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:27.362 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:27.371 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m           &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:27.372 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Sorting products by price: low to high
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user sorts products by price low to high&amp#27;[39m                  &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_sorts_by_price_low_to_high()&amp#27;[39m
+06:20:27.433 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying products are sorted by price ascending
+06:20:27.633 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Products are correctly sorted by price ascending. Cheapest: Sauce Labs Onesie at $7.99
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe products should be sorted from cheapest to most expensive&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.products_sorted_cheapest_to_most_expensive()&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successfully checkout the cheapest product&quot;, &quot;Sort Products by Price and Checkout&quot;](4)" classname="com.syafiq.cucumber.TestRunner" time="1.787">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Successfully checkout the cheapest product                                            &amp#27;[90m# src/main/resources/features/SortAndCheckout.feature:16&amp#27;[39m
+06:20:27.636 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:27.636 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:28.689 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                                                         &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:28.690 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m                                            &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:28.773 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                                                                 &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:28.822 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:28.833 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m                                    &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:28.834 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Sorting products by price: low to high
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user sorts products by price low to high&amp#27;[39m                                           &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_sorts_by_price_low_to_high()&amp#27;[39m
+06:20:29.023 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Adding cheapest product to cart: Sauce Labs Onesie at $7.99
+06:20:29.050 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Product added to cart successfully
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user adds the cheapest product to cart&amp#27;[39m                                              &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_adds_cheapest_product_to_cart()&amp#27;[39m
+06:20:29.051 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking cart icon to navigate to cart page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user navigates to the cart&amp#27;[39m                                                          &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_navigates_to_cart()&amp#27;[39m
+06:20:29.093 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying cart page is displayed
+06:20:29.115 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Cart page displayed. Item count: 1
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe cart page should be displayed&amp#27;[39m                                                      &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.cart_page_should_be_displayed()&amp#27;[39m
+06:20:29.115 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking checkout button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user clicks the checkout button&amp#27;[39m                                                    &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_checkout_button()&amp#27;[39m
+06:20:29.167 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Filling checkout info — firstName: 'John', lastName: 'Doe', postalCode: '12345'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user fills checkout info with first name &amp#27;[1m"John"&amp#27;[22m last name &amp#27;[1m"Doe"&amp#27;[22m postal code &amp#27;[1m"12345"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_fills_checkout_info(java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+06:20:29.266 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking continue button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user clicks the continue button&amp#27;[39m                                                     &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_continue_button()&amp#27;[39m
+06:20:29.328 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying order overview page is displayed
+06:20:29.353 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Order overview displayed. Total: Total: $8.63
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe order overview page should be displayed&amp#27;[39m                                            &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.order_overview_page_should_be_displayed()&amp#27;[39m
+06:20:29.353 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking finish button to complete the order
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user clicks the finish button&amp#27;[39m                                                      &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_finish_button()&amp#27;[39m
+06:20:29.407 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying order confirmation — expected: 'Thank you for your order!', actual: 'Thank you for your order!'
+06:20:29.420 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Order confirmed: Thank you for your order! — Your order has been dispatched, and will arrive just as fast as the pony can get there!
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe order confirmation should display &amp#27;[1m"Thank you for your order!"&amp#27;[22m&amp#27;[39m                      &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.order_confirmation_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout fails when required field is empty&quot;, &quot;Sort Products by Price and Checkout&quot;](5)" classname="com.syafiq.cucumber.TestRunner" time="1.636">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Checkout fails when required field is empty                               &amp#27;[90m# src/main/resources/features/SortAndCheckout.feature:39&amp#27;[39m
+06:20:29.424 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:29.424 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:30.488 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                                                     &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:30.499 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m                                        &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:30.589 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                                                             &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:30.639 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:30.650 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m                                &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:30.651 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Sorting products by price: low to high
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user sorts products by price low to high&amp#27;[39m                                       &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_sorts_by_price_low_to_high()&amp#27;[39m
+06:20:30.824 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Adding cheapest product to cart: Sauce Labs Onesie at $7.99
+06:20:30.848 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Product added to cart successfully
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user adds the cheapest product to cart&amp#27;[39m                                          &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_adds_cheapest_product_to_cart()&amp#27;[39m
+06:20:30.849 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking cart icon to navigate to cart page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user navigates to the cart&amp#27;[39m                                                      &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_navigates_to_cart()&amp#27;[39m
+06:20:30.880 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking checkout button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user clicks the checkout button&amp#27;[39m                                                &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_checkout_button()&amp#27;[39m
+06:20:30.912 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Filling checkout info — firstName: '', lastName: 'Doe', postalCode: '12345'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user fills checkout info with first name &amp#27;[1m""&amp#27;[22m last name &amp#27;[1m"Doe"&amp#27;[22m postal code &amp#27;[1m"12345"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_fills_checkout_info(java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+06:20:30.998 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking continue button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user clicks the continue button&amp#27;[39m                                                 &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_continue_button()&amp#27;[39m
+06:20:31.032 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying checkout error message — expected: 'Error: First Name is required'
+06:20:31.057 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Error message displayed: 'Error: First Name is required'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe checkout error should display &amp#27;[1m"Error: First Name is required"&amp#27;[22m&amp#27;[39m                  &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.checkout_error_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout fails when required field is empty&quot;, &quot;Sort Products by Price and Checkout&quot;](6)" classname="com.syafiq.cucumber.TestRunner" time="1.65">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Checkout fails when required field is empty                                &amp#27;[90m# src/main/resources/features/SortAndCheckout.feature:40&amp#27;[39m
+06:20:31.059 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:31.059 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:32.117 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                                                      &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:32.118 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m                                         &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:32.268 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                                                              &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:32.324 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:32.331 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m                                 &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:32.331 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Sorting products by price: low to high
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user sorts products by price low to high&amp#27;[39m                                        &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_sorts_by_price_low_to_high()&amp#27;[39m
+06:20:32.483 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Adding cheapest product to cart: Sauce Labs Onesie at $7.99
+06:20:32.505 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Product added to cart successfully
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user adds the cheapest product to cart&amp#27;[39m                                           &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_adds_cheapest_product_to_cart()&amp#27;[39m
+06:20:32.506 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking cart icon to navigate to cart page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user navigates to the cart&amp#27;[39m                                                       &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_navigates_to_cart()&amp#27;[39m
+06:20:32.537 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking checkout button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user clicks the checkout button&amp#27;[39m                                                 &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_checkout_button()&amp#27;[39m
+06:20:32.568 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Filling checkout info — firstName: 'John', lastName: '', postalCode: '12345'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user fills checkout info with first name &amp#27;[1m"John"&amp#27;[22m last name &amp#27;[1m""&amp#27;[22m postal code &amp#27;[1m"12345"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_fills_checkout_info(java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+06:20:32.655 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking continue button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user clicks the continue button&amp#27;[39m                                                  &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_continue_button()&amp#27;[39m
+06:20:32.684 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying checkout error message — expected: 'Error: Last Name is required'
+06:20:32.707 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Error message displayed: 'Error: Last Name is required'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe checkout error should display &amp#27;[1m"Error: Last Name is required"&amp#27;[22m&amp#27;[39m                    &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.checkout_error_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout fails when required field is empty&quot;, &quot;Sort Products by Price and Checkout&quot;](7)" classname="com.syafiq.cucumber.TestRunner" time="1.585">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Checkout fails when required field is empty                              &amp#27;[90m# src/main/resources/features/SortAndCheckout.feature:41&amp#27;[39m
+06:20:32.709 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Page objects initialized
+06:20:32.709 [main] INFO com.syafiq.cucumber.LoginTest -- Navigating to login page (clearing browser state)
+06:20:33.765 [main] INFO com.syafiq.cucumber.LoginTest -- Login page is ready
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mthe user is on the login page&amp#27;[39m                                                    &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_is_on_login_page()&amp#27;[39m
+06:20:33.767 [main] INFO com.syafiq.cucumber.LoginTest -- User enters username and password
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user enters valid username and password&amp#27;[39m                                       &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_enters_username_and_password()&amp#27;[39m
+06:20:33.863 [main] INFO com.syafiq.cucumber.LoginTest -- User clicks on login button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclicks the login button&amp#27;[39m                                                            &amp#27;[90m# com.syafiq.cucumber.LoginTest.clicks_on_login_button()&amp#27;[39m
+06:20:33.908 [main] INFO com.syafiq.cucumber.LoginTest -- Waiting for redirect to inventory page
+06:20:33.921 [main] INFO com.syafiq.cucumber.LoginTest -- Redirected to: https://www.saucedemo.com/inventory.html
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe user should be redirected to the inventory page&amp#27;[39m                               &amp#27;[90m# com.syafiq.cucumber.LoginTest.user_should_be_redirected_to_inventory_page()&amp#27;[39m
+06:20:33.921 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Sorting products by price: low to high
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user sorts products by price low to high&amp#27;[39m                                      &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_sorts_by_price_low_to_high()&amp#27;[39m
+06:20:34.070 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Adding cheapest product to cart: Sauce Labs Onesie at $7.99
+06:20:34.092 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Product added to cart successfully
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user adds the cheapest product to cart&amp#27;[39m                                         &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_adds_cheapest_product_to_cart()&amp#27;[39m
+06:20:34.093 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking cart icon to navigate to cart page
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user navigates to the cart&amp#27;[39m                                                     &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_navigates_to_cart()&amp#27;[39m
+06:20:34.122 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking checkout button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe user clicks the checkout button&amp#27;[39m                                               &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_checkout_button()&amp#27;[39m
+06:20:34.155 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Filling checkout info — firstName: 'John', lastName: 'Doe', postalCode: ''
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user fills checkout info with first name &amp#27;[1m"John"&amp#27;[22m last name &amp#27;[1m"Doe"&amp#27;[22m postal code &amp#27;[1m""&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_fills_checkout_info(java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+06:20:34.241 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Clicking continue button
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe user clicks the continue button&amp#27;[39m                                                &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.user_clicks_continue_button()&amp#27;[39m
+06:20:34.272 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Verifying checkout error message — expected: 'Error: Postal Code is required'
+06:20:34.293 [main] INFO com.syafiq.cucumber.SortAndCheckoutTest -- Error message displayed: 'Error: Postal Code is required'
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe checkout error should display &amp#27;[1m"Error: Postal Code is required"&amp#27;[22m&amp#27;[39m                &amp#27;[90m# com.syafiq.cucumber.SortAndCheckoutTest.checkout_error_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/App.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/drivers/DriverSingleton.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/drivers/strategies/Chrome.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/drivers/strategies/DriverStrategy.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/drivers/strategies/DriverStrategyImplementer.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/drivers/strategies/Safari.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/pages/CartPage.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/pages/CheckoutPage.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/pages/InventoryPage.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/pages/LoginPage.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/pages/SortPage.java
+/Users/syafiqbasmallah/Documents/java/cucumber-syafiq/src/main/java/com/syafiq/cucumber/utils/Constants.java
